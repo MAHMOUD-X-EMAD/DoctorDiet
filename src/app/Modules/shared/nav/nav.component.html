@@ -5,22 +5,28 @@
    style="position: fixed; width: 100%; background-color: white; z-index: 99;">
     <div class="container">
       <div class="d-flex align-items-center">
-        <a href="#"><img src="assets/logo.png" width="20%"></a>
+        <a routerLink="Home"><img src="assets/logo.png" width="20%"></a>
         <span class="navbar-text fontColor" style="font-weight: bold; font-size: large; margin-left: 1.8rem; color: #163A66;  ">
         
              
-             <span style="font-weight: bold;  font-size: x-large; color: #163A66; ">Doctor</span>Diet
+             <span style="font-weight: bold;  font-size: x-large; color: #163A66; ">Doctor </span>Diet
            
 
         </span>
       </div>
       <div class="navbar-collapse justify-content-end">
         <div class="navbar-nav mt-3">
-          <a id="loginBtn" class="btn me-3 mb-2 shared" style="border-radius: 20px; width: 100%;" href="/Register"
+          <a id="loginBtn" class="btn mb-2 shared" style="border-radius: 20px; width: 100%;"  routerLink="/DoctorDashboard"> متابعة</a>
+          <a id="loginBtn" class="btn mb-2  ms-1 shared" style="border-radius: 20px; width: 100%;"  routerLink="Profile"> الملف&nbsp;الشخصي</a>
+       
+          <a id="loginBtn" class="btn mb-2 mx-3 shared" style="border-radius: 20px; width: 100%;"  routerLink="Plan"> خطتك</a>
+          <a id="loginBtn" class="btn me-3 mb-2 shared" style="border-radius: 20px; width: 100%;" routerLink="/Register"
            routerLink="Register">التسجيل </a>
-          <a id="loginBtn" class="btn mb-2 shared" style="border-radius: 20px; width: 100%;" href="/Login"> الدخول</a>
+          <a id="loginBtn" class="btn mb-2 shared" style="border-radius: 20px; width: 100%;" routerLink="/Login"> الدخول</a>
+
+    
         </div>
       </div>
     </div>
   </nav>
-  <div style="height: 180px;"></div>
+  <div style="height: 150px;"></div>
